@@ -1,54 +1,47 @@
 import './App.css'
+
 import React from 'react'
-    import Layout from './components/Layout.jsx'
-import {Routes, Route} from 'react-router-dom'
+import {Outlet, Routes, Route} from 'react-router-dom'
+
 import Anime from './components/Anime.jsx'
 import Manhwa from './components/Manhwa.jsx'
 import Dunhua from './components/Dunhua.jsx'
+import Contacts from './components/Contacts.jsx'
+import Header from './components/Header.jsx'
 
-import AboutMe from './components/AboutMe.jsx'
-import AboutContent from './components/AboutContent.jsx'
-
-
-export default function App () {
+export default function App() {
   return (
-  <>
-      
-       <img className = "mainPhotoOfHomePage" src = "./src/beautiful-anime-woman-cartoon-scene.jpg" />
+    <>
+      <Routes>
+        <Route path="/" element={<HeaderForAllPages />}>
+          <Route index element={<HomePage />} />
+          <Route path="contacts" element={<Contacts />} />
+          <Route path="homePage" element={<HomePage />} />
+          <Route path="anime" element={<Anime />} />
+          <Route path="manhwa" element={<Manhwa />} />
+          <Route path="dunhua" element={<Dunhua />} />
+        </Route>
+      </Routes>
+    </>
+  );
+}
 
-       <div className = "newDiv">
-   
-        <div className = "container">
+export function HomePage() {
+  return (
+    <>
+      <img className="mainPhotoOfHomePage" src="./src/components/Photos/beautiful-anime-woman-cartoon-scene.jpg" alt="Аниме девушка"/>
+      <p><a className="sourceOfMainPhotoOnHomePage" href="https://ru.freepik.com/free-photo/beautiful-anime-woman-cartoon-scene_94944919.htm#fromView=search&page=2&position=15&uuid=472d74b8-2fec-47ac-b6d0-16014560ea9f">Изображение от freepik</a></p>
+      <div className="listHeaderForHomePage">
+        <Outlet />
+      </div>
+    </>
+  );
+}
 
-        <div className = "routesTooOne"> 
-          <div className = "first">
-          <Routes>
-                  <Route path = "/" element = {<Layout />} >
-                    <Route path = "aboutMe" element = {<AboutMe />} />
-                     <Route path = "aboutContent" element = {<AboutContent />} />
-                      <Route path = "anime" element = {<Anime />} />
-                      <Route path = "manhwa" element = {<Manhwa />} />
-                             <Route path = "dunhua" element = {<Dunhua />} />
-                  </Route>
-                  </Routes>
-              </div>
-          </div>
-
-             </div>
-
-           {/*
-<div className = "sectionOfFirstPage">
-           <h1>Справочник по</h1>
-           <h2>Аниме</h2>
-           <h2>Манхве</h2>
-           <h2>Дунхуа</h2>
+export function HeaderForAllPages () {
+  return (
+    <div>
+     <Header />
     </div>
-    */}
-      
-                </div>
-
-    
-
-  </>
-  )
+  );
 }
