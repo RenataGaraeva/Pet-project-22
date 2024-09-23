@@ -1,0 +1,341 @@
+body { 
+background-image: linear-gradient(pink, purple);
+    padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+/* Home Page */
+.mainPhotoOfHomePage {
+  position: absolute;
+ width: 100vw;
+  height: 100vh;
+  padding: 0;
+margin: 0;
+}
+
+
+/* Page "Anime" */
+
+.buttonForTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.sectionOfFirstPage {
+ text-align: center;
+}
+
+/* Carousel - Карусель */
+.photo {
+   width: 750px; 
+}
+
+figure {
+   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+}
+
+figcaption {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+}
+
+.flexForButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 127px;
+  
+}
+
+.centerOfButton {
+  margin-bottom: 70px;
+  margin-left: auto;
+}
+
+/* End - Конец */
+
+
+.nameOfPageAnimeDunhuaManhwa {
+  margin-top: 100px;
+    margin-left: 64px;
+    margin-bottom: 65px;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    text-align: left;
+  }
+
+.ulForPageAboutSite li {
+  border: none;
+}
+
+.divForPageAboutSite {
+  margin: 0 64px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.rightButton {
+background-color: transparent; /* Или другой фон */
+border: none; /* Уберите границу, если не хотите */
+cursor: pointer; /* Укажите, что элемент кликабельный */
+  }
+
+.leftButton {
+  background-color: transparent; /* Или другой фон */
+  border: none; /* Уберите границу, если не хотите */
+  cursor: pointer; /* Укажите, что элемент кликабельный */
+}
+
+.rightSvg {
+   border: 1px solid black;
+  border-radius: 50% 50%;
+}
+
+.flexForUl,
+.headerOne {
+  display: flex;
+  list-style-type: none;
+  margin: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+
+li,
+p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+NavLink {
+textDecoration: 'none';
+}
+
+.newDiv {
+  position: relative;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.mainPhotoTwo {
+  background-image: url("beautiful-anime-woman-cartoon-scene.jpg");
+   background-size: 100% 100%;
+}
+
+
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.hi {
+  position: absolute;
+    padding: 0;
+  margin: 0;
+}
+
+.routesTooOne {
+   width: 100vw;
+display: flex;
+  justify-content: space-between;
+    padding: 0;
+  margin: 0;
+  margin-top: 48px;
+}
+
+.routesTooTwo {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: auto;
+  margin-top: 48px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.liForUl {
+   margin: 0 16px; 
+   list-style-type: none;
+}
+
+
+
+
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.hTwoForWelcome {
+  margin-bottom: 64px;
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  border: 1px solid;
+  border-radius: 9999px;
+  padding: 5px 25px;
+  color: black;
+}
+
+.flexForThreePhotosOnPage {
+  display: flex;
+align-items: start;
+   list-style-type: none;
+  margin-bottom: 113px;
+}
+
+.flexForThreePhotosOnPage li:nth-child(1) {
+  margin-top: 201px;
+  margin-right: 24px;
+}
+
+.flexForThreePhotosOnPage li:nth-child(2) {
+  margin-right: 24px;
+}
+
+.flexForThreePhotosOnPage li:nth-child(3) {
+  margin-left: auto;
+}
+
+.navigation ul li,
+.navigation h2,
+.navigation {
+  text-align: center;
+  list-style-type: none;
+  font-family: Roboto;
+  font-size: 51px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+
+}
+
+.flexForFeatures {
+  display: flex;
+}
+
+.hThreeForAnimeFeatures {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+
+}
+main h3 {
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 80px;
+  text-align: center;
+
+}
+
+main h4 {
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+
+}
+
+
+.hThreeForAnimeGenres Li {
+ flex-basis: 300px;
+}
+
+.hThreeForAnimeGenres {
+  flex-grow: 1;
+  gap: 15px;
+}
+
+.ulForThreeForAnimeFavorites {
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+list-style-type: decimal;
+}
+
+.ulForThreeForAnimeSources {
+  font-family: Cardo;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+
+Li {
+padding: 10px;
+  border: solid 1px;
+}
+
+.flexForFeatures Li:first-child {
+  margin-right: 73px;
+}
+.flexForFeatures Li:nth-child(2) {
+  margin-right: 73px;
+}
+
+.flexForFeatures Li:last-child {
+  margin-left: auto;
+}
+
+.bodyForAnime {
+  margin: 0;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.ulForContent li {
+  border: none;
+  margin: 0 auto;
+}
+
+.navigation h2 {
+  margin: 0 auto;
+}
+
+nav {
+  margin-bottom: 197px;
+}
+
+h3 {
+  margin-top: 197px;
+}
+
+.hThreeForAnimeFavorites {
+  margin-left: 96px;
+   text-align: left;
+}
