@@ -11,3 +11,4 @@
 - React
 - React Router
 
+![Девушка из аниме](https://raw.githubusercontent.com/RenataGaraeva/Pet-project/933b5c34eb8964a7af2b168d0fbb27a8bf35e725/Screenshot_54.png)
