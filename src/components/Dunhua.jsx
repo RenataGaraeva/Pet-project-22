@@ -7,19 +7,14 @@ export default function Dunhua () {
   const [galleryPhotoItem, nextPhoto] = useState (0);
 
   const right = function () {
-
    nextPhoto(galleryPhotoItem + 1)
-
-
-
   }
 
      const left = function () {
        nextPhoto(galleryPhotoItem - 1)
      }
 
-  
-  return (
+    return (
 
       <div className = "bodyForPagesAnimeDunhuaManhwa">
       <h1 className = "nameOfPageAnimeDunhuaManhwa">Дунхуа</h1>
