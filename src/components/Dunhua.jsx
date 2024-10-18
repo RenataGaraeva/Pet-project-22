@@ -3,7 +3,6 @@ import ButtonToTop from '/src/components/ButtonToTop.jsx';
 
 export default function Dunhua () {
 
-
   const [galleryPhotoItem, nextPhoto] = useState (0);
 
   const right = function () {
@@ -98,8 +97,6 @@ export default function Dunhua () {
                         {galleryPhotoItem < galleryForDunhua.length - 1 &&
              (
 
-
-
                               <button className = "rightButtonForCarousel" type = "button" onClick = {right}>
                                 <svg width="48" height="48" className = "ArrowSvgForCarousel" xmlns="http://www.w3.org/2000/svg" stroke-linecap = "round">
                                   <line x1="12" y1="24" x2="36" y2="24" stroke="black" stroke-width="3" stroke-linecap = "round"/>
@@ -133,4 +130,3 @@ export default function Dunhua () {
           </div>
   )
 }
-
