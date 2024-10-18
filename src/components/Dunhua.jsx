@@ -3,7 +3,7 @@ import ButtonToTop from '/src/components/ButtonToTop.jsx';
 
 export default function Dunhua () {
 
-  const [galleryPhotoItem, nextPhoto] = useState (0);
+const [galleryPhotoItem, nextPhoto] = useState (0);
 
   const right = function () {
    nextPhoto(galleryPhotoItem + 1)
