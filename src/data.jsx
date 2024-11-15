@@ -33,7 +33,7 @@ export const galleryForAnime = [
   },
 ];
 
-const galleryForDunhua = [
+export const galleryForDunhua = [
   {
     id: "10",
     src: "./src/components/Photos/Face-on-Lie-anime-650x361.jpg",
@@ -61,7 +61,7 @@ const galleryForDunhua = [
   },
 ];
 
-const galleryForManhwa = [
+export const galleryForManhwa = [
   {
     id: "15",
     src: "./src/components/Photos/8db47cf5-4e5e-403e-85d1-abf8229add6d.png",
@@ -89,7 +89,7 @@ const galleryForManhwa = [
   },
 ];
 
-const sourcesOfAnime = [
+export const sourcesOfAnime = [
   {
     source:
       "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B8%D0%BC%D0%B5#%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F",
@@ -110,7 +110,7 @@ const sourcesOfAnime = [
     name: "Фото девушка в голубом - Изображение от freepik",
   },
 ];
-const sourcesOfManhwa = [
+export const sourcesOfManhwa = [
   {
     source:
       "https://www.chitai-gorod.ru/articles/manga_mankhva_i_mankhua_v_chem_raznitsa-3963",
@@ -123,7 +123,7 @@ const sourcesOfManhwa = [
   },
   { name: "Фото взяты с Интернета" },
 ];
-const sourcesOfDunhua = [
+export const sourcesOfDunhua = [
   {
     source:
       "https://ru.wikipedia.org/wiki/%D0%90%D0%BD%D0%B8%D0%BC%D0%B0%D1%86%D0%B8%D1%8F_%D0%B2_%D0%9A%D0%B8%D1%82%D0%B0%D0%B5",
@@ -137,7 +137,7 @@ const sourcesOfDunhua = [
   { name: "Фото взяты с Интернета" },
 ];
 
-const photosForGreetingBlockAnime = [
+export const photosForGreetingBlockAnime = [
   {
     source:
       "src/components/Photos/anime-style-portrait-traditional-japanese-samurai-character(1).jpg",
@@ -150,18 +150,18 @@ const photosForGreetingBlockAnime = [
     source: "src/components/Photos/girl-with-backpack-sunset-generative-al.jpg",
   },
 ];
-const photosForGreetingBlockDunhua = [
+export const photosForGreetingBlockDunhua = [
   { source: "src/components/Photos/080a00bd4b.png" },
   { source: "src/components/Photos/dd66ce50af1b0db5c0453fd7e31f1b13.jpg" },
   { source: "src/components/Photos/cbded926b5077087ef017646b6813812.jpg" },
 ];
 
-const photosForGreetingBlockManhwa = [
+export const photosForGreetingBlockManhwa = [
   { source: "src/components/Photos/scale_1200.jpg" },
   { source: "src/components/Photos/photo_2024-09-21_17-01-52.jpg" },
   { source: "src/components/Photos/photo_2024-09-21_17-01-54.jpg" },
 ];
-const featuresOfAnime = [
+export const featuresOfAnime = [
   {
     title: "Глаза",
     feature:
@@ -179,7 +179,7 @@ const featuresOfAnime = [
   },
 ];
 
-const featuresOfDunhua = [
+export const featuresOfDunhua = [
   {
     title: "Фольклор",
     feature:
@@ -197,7 +197,7 @@ const featuresOfDunhua = [
   },
 ];
 
-const featuresOfManhwa = [
+export const featuresOfManhwa = [
   {
     title: "Способ чтения",
     feature:
@@ -214,7 +214,7 @@ const featuresOfManhwa = [
       "Японские мангаки следуют традициям, заложенным Осаму Тэдзукой, и рисуют героев с большими глазами, аккуратными носами и губами, преувеличенными изображениями лиц для подчёркивания эмоций. Впрочем, рисовка определённой манги зависит от стиля её автора – встречаются и вполне реалистичные работы, например манга «Берсерк» Кэнтаро Миуры.",
   },
 ];
-const historyOfAnime = [
+export const historyOfAnime = [
   {
     history:
       "История аниме берёт начало в XX веке, когда японские кинорежиссёры начинают первые эксперименты с техниками мультипликации, изобретёнными на Западе. Старейшая из известных сохранившихся японских анимаций — «Katsudo Shashin» длится всего 3 секунды. Одним из самых первых аниме стал продемонстрированный в 1917 году двухминутный комедийный фильм «Namakura Gatana», в котором самурай собирается испытать свой новый меч, но терпит поражение от горожанина. Одним из наиболее популярных и доступных методов на тот момент была техника вырезной анимации. Позднее распространилась также техника аппликационной анимации. Успеха в развитии техники анимации добились и другие мультипликаторы, использовавшие, в частности, анимационные фильмы в образовательных и пропагандистских целях. Первым звуковым аниме стал снятый Масаокой в 1933 году короткометражный фильм Chikara to Onna no Yo no Naka. К 1940 году начали образовываться организации мультипликаторов и художников.",
@@ -228,7 +228,7 @@ const historyOfAnime = [
       'Сейчас первенство в аниме индустрии занимает режиссерка и сценаристка Мари Окада, которая создала такие произведения, как "Укрась прощальное утро цветами обещания", "Фабрика иллюзий Алисы и Террезы", "Затерянная деревня", "Она видела небо".',
   },
 ];
-const historyOfDunhua = [
+export const historyOfDunhua = [
   {
     history:
       "История анимации в Китае началась в 1918 году, когда в Шанхай из США был завезен анимационный фильм под названием «Из чернильницы». Фрагменты мультфильмов были впервые использованы в рекламах отечественной продукции.",
@@ -251,7 +251,7 @@ const historyOfDunhua = [
   },
 ];
 
-const historyOfManhwa = [
+export const historyOfManhwa = [
   {
     history:
       "Корейская манхва очень похожа на японскую мангу и китайскую маньхуа. Они имеют много общих черт, но каждая обладает собственными особенностями: текст и графика согласуются с культурой и историей соответствующих стран. Манхва находилась под влиянием тяжёлой новейшей истории Кореи, это повлияло на многообразие форм и жанров. Отталкиваясь от основного течения, копирующего особенности манги, манхва развилась до авторских мини-историй, графически ориентированных работ и манхва-сериалов, распространяемых через интернет. На данный момент длинные сериалы интернет-манхвы на специальных порталах (например Media Daum) и личных страничках являются популярным ресурсом среди молодого поколения Южной Кореи.",
@@ -269,7 +269,7 @@ const historyOfManhwa = [
       "В отличие от Японии, анимация, основанная на манхве, в Республике Корее всё ещё редка (несколько заметных хитов в конце 80-х и начале 90-х — Dooly the Little Dinosaur и Fly! Superboard). Однако, манхва в последние годы часто экранизируется в телесериалы и фильмы: Full House (2004) и Goong (2006) — примеры лучших телесериалов такого рода за последнее время.",
   },
 ];
-const genresOfAnime = [
+export const genresOfAnime = [
   {
     title: "Сёдзё",
     genre:
@@ -312,7 +312,7 @@ const genresOfAnime = [
   },
 ];
 
-const genresOfDunhua = [
+export const genresOfDunhua = [
   {
     title: "Традиционная",
     genre:
@@ -325,7 +325,7 @@ const genresOfDunhua = [
   },
 ];
 
-const genresOfManhwa = [
+export const genresOfManhwa = [
   {
     title: "Мённан манхва",
     genre: "эквивалент кодомо или юмористической манги для любого возраста.",
