@@ -1,10 +1,3 @@
-const header = [
-  { name: "Обо мне", id: "1" },
-  { name: "Меню", id: "2" },
-  { name: "Главная", id: "3" },
-  { name: "Контакты", id: "4" },
-];
-
 export const galleryForAnime = [
   {
     id: "5",
