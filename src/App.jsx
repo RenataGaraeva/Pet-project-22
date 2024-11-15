@@ -31,7 +31,7 @@ export function HomePage() {
     <>
       <img
         className="mainPhotoOfHomePage"
-        src="components/Photos/beautiful-anime-woman-cartoon-scene.jpg"
+        src="../components/Photos/beautiful-anime-woman-cartoon-scene.jpg"
         alt="Аниме девушка"
       />
       {/* ./src/components/Photos/beautiful-anime-woman-cartoon-scene.jpg
