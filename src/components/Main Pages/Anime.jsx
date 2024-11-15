@@ -7,6 +7,7 @@ import Features from "../Blocks/Features.jsx";
 import History from "../Blocks/History.jsx";
 import Genres from "../Blocks/Genres.jsx";
 import Favourite from "../Blocks/Favourite.jsx";
+import {galleryForAnime} from "src/data.jsx"
 
 export default function Anime() {
   return (

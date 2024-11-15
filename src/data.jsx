@@ -5,7 +5,7 @@ const header = [
   { name: "Контакты", id: "4" },
 ];
 
-const galleryForAnime = [
+export const galleryForAnime = [
   {
     id: "5",
     src: "./src/components/Photos/Mi8cTZvAyiI.jpg",
