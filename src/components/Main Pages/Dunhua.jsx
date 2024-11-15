@@ -14,7 +14,7 @@ import {
     historyOfDunhua,
     genresOfDunhua,
     sourcesOfDunhua
-} from "src/data.jsx"
+} from "../../data.jsx"
 
 export default function Dunhua() {
   return (

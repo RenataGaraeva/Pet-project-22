@@ -14,7 +14,7 @@ import {
     historyOfManhwa,
     genresOfManhwa,
     galleryForManhwa
-} from "src/data.jsx"
+} from "../../data.jsx"
 
 export default function Manhwa() {
   return (
