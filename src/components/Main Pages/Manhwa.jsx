@@ -7,7 +7,14 @@ import Greeting from "../Blocks/Greeting.jsx";
 import Features from "../Blocks/Features.jsx";
 import History from "../Blocks/History.jsx";
 import Genres from "../Blocks/Genres.jsx";
-import {galleryForManhwa, sourcesOfManhwa, photosForGreetingBlockManhwa, featuresOfManhwa, historyOfManhwa, genresOfManhwa} from "src/data.jsx"
+import {
+    sourcesOfManhwa,
+    photosForGreetingBlockManhwa,
+    featuresOfManhwa,
+    historyOfManhwa,
+    genresOfManhwa,
+    galleryForManhwa
+} from "src/data.jsx"
 
 export default function Manhwa() {
   return (

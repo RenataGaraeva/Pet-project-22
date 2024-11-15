@@ -7,7 +7,14 @@ import Genres from "../Blocks/Genres.jsx";
 import History from "../Blocks/History.jsx";
 import Greeting from "../Blocks/Greeting.jsx";
 import Features from "../Blocks/Features.jsx";
-import {galleryForDunhua, sourcesOfDunhua, photosForGreetingBlockDunhua, featuresOfDunhua, historyOfDunhua, genresOfDunhua} from "src/data.jsx"
+import {
+    galleryForDunhua,
+    photosForGreetingBlockDunhua,
+    featuresOfDunhua,
+    historyOfDunhua,
+    genresOfDunhua,
+    sourcesOfDunhua
+} from "src/data.jsx"
 
 export default function Dunhua() {
   return (
