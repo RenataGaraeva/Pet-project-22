@@ -35,7 +35,7 @@ export function HomePage() {
         src={beautifulAnimeWomanCartoonScene}
         alt="Аниме девушка"
       />
-      {/* ./src/components/Photos/beautiful-anime-woman-cartoon-scene.jpg
+      {/* ./src/components/Photos/beautifulAnimeWomanCartoonScene.jpg
 
          https://gist.github.com/loginsan/3b8426d656e66901f4528c5e58b6b2f2 */}
       <p>

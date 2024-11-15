@@ -49,7 +49,7 @@ const router = createBrowserRouter([
           <>
             <img
               className="mainPhotoOfHomePage"
-              src="./src/components/Photos/beautiful-anime-woman-cartoon-scene.jpg"
+              src="./src/components/Photos/beautifulAnimeWomanCartoonScene.jpg"
               alt="Описание изображения"
             />
             <a
