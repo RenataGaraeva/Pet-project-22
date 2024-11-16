@@ -2,27 +2,27 @@ export const galleryForAnime = [
   {
     id: "5",
     src: "/Mi8cTZvAyiI.jpg",
-    name: "В лес, где мерцают светлячки",
+    name: "В лес, где мерцают светлячки"
   },
   {
     id: "6",
     src: "/720d57aa42.jpg",
-    name: "Токийский гуль",
+    name: "Токийский гуль"
   },
   {
     id: "7",
     src: "/start.jpg",
-    name: "5 сантиметров в секунду",
+    name: "5 сантиметров в секунду"
   },
   {
     id: "8",
     src: "./src/components/public/4_1584545206.jpg",
-    name: "Затерянная деревня",
+    name: "Затерянная деревня"
   },
   {
     id: "9",
     src: "./src/components/public/0fb6c823f4b2f84d036a28110d483.jpeg",
-    name: "Стальной Алхимик",
+    name: "Стальной Алхимик"
   },
 ];
 
