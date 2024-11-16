@@ -1,7 +1,7 @@
 export const galleryForAnime = [
   {
     id: "5",
-    src: "./src/components/public/Mi8cTZvAyiI.jpg",
+    src: "/Mi8cTZvAyiI.jpg",
     name: "В лес, где мерцают светлячки",
   },
   {
