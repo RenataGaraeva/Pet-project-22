@@ -8,7 +8,7 @@ import Manhwa from "./components/Main Pages/Manhwa.jsx";
 import Dunhua from "./components/Main Pages/Dunhua.jsx";
 import Contacts from "./components/Main Pages/Contacts.jsx";
 import Header from "./components/Blocks/Header.jsx";
-import beautifulAnimeWomanCartoonScene from "../../beautifulAnimeWomanCartoonScene.jpg"
+import beautifulAnimeWomanCartoonScene from "../beautifulAnimeWomanCartoonScene.jpg"
 
 export default function App() {
   return (
