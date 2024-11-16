@@ -8,7 +8,7 @@ import Manhwa from "./components/Main Pages/Manhwa.jsx";
 import Dunhua from "./components/Main Pages/Dunhua.jsx";
 import Contacts from "./components/Main Pages/Contacts.jsx";
 import Header from "./components/Blocks/Header.jsx";
-import beautifulAnimeWomanCartoonScene from "./beautifulAnimeWomanCartoonScene.jpg"
+import beautifulAnimeWomanCartoonScene from "/beautifulAnimeWomanCartoonScene.jpg"
 
 export default function App() {
   return (
@@ -35,7 +35,7 @@ export function HomePage() {
         src={beautifulAnimeWomanCartoonScene}
         alt="Аниме девушка"
       />
-      {/* ./src/components/Photos/beautifulAnimeWomanCartoonScene.jpg
+      {/* ./src/components/public/beautifulAnimeWomanCartoonScene.jpg
 
          https://gist.github.com/loginsan/3b8426d656e66901f4528c5e58b6b2f2 */}
       <p>
