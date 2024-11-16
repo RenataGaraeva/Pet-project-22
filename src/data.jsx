@@ -11,7 +11,7 @@ export const galleryForAnime = [
   },
   {
     id: "7",
-    src: "/start.jpg",
+    src: "../start.jpg",
     name: "5 сантиметров в секунду"
   },
   {
@@ -23,7 +23,7 @@ export const galleryForAnime = [
     id: "9",
     src: "./src/components/public/0fb6c823f4b2f84d036a28110d483.jpeg",
     name: "Стальной Алхимик"
-  },
+  }
 ];
 
 export const galleryForDunhua = [
