@@ -11,7 +11,7 @@ export const galleryForAnime = [
   },
   {
     id: "7",
-    src: "./src/components/public/start.jpg",
+    src: "/start.jpg",
     name: "5 сантиметров в секунду",
   },
   {
