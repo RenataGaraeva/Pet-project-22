@@ -6,7 +6,7 @@ export const galleryForAnime = [
   },
   {
     id: "6",
-    src: "./src/components/public/720d57aa42.jpg",
+    src: "/720d57aa42.jpg",
     name: "Токийский гуль",
   },
   {
