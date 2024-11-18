@@ -1,0 +1,10 @@
+{
+  "rewrites": [
+    { "source": "/contacts", "destination": "/Contacts" },
+    { "source": "/homePage", "destination": "/HomePage" },
+    { "source": "/anime", "destination": "/Anime" },
+    { "source": "/manhwa", "destination": "/Manhwa" },
+    { "source": "/dunhua", "destination": "/Dunhua" },
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
