@@ -11,7 +11,7 @@ export const galleryForAnime = [
   },
   {
     id: "7",
-    src: "../start.jpg",
+    src: "/start.jpg",
     name: "5 сантиметров в секунду"
   },
   {
@@ -39,7 +39,7 @@ export const galleryForDunhua = [
   },
   {
     id: "12",
-    src: "public/pr-8.jpg",
+    src: "/pr-8.jpg",
     name: "Практикуя ци сто тысяч лет",
   },
   {
