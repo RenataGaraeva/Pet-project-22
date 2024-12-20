@@ -23,7 +23,7 @@ export default function Manhwa() {
       <Greeting nameOfPage="Манхва" photos={photosForGreetingBlockManhwa} />
       <Navigation nameOfPage="манхвы" />
       <main>
-      <Definition name = {definition[1].manhwa}/>
+        <Definition name = {definition[1].manhwa}/>
         <Features featuresOfPage={featuresOfManhwa} />
         <History historyOfPage={historyOfManhwa} />
         <Genres genresOfPage={genresOfManhwa} />

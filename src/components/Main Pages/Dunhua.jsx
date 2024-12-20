@@ -23,7 +23,7 @@ export default function Dunhua() {
       <Greeting nameOfPage="Дунхуа" photos={photosForGreetingBlockDunhua} />
       <Navigation nameOfPage="дунхуа" />
       <main>
-<Definition name = {definition[2].dunhua}/>
+        <Definition name = {definition[2].dunhua}/>
         <Features featuresOfPage={featuresOfDunhua} />
         <History historyOfPage={historyOfDunhua} />
         <Genres genresOfPage={genresOfDunhua} />

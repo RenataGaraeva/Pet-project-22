@@ -23,7 +23,7 @@ export default function Anime() {
       <Greeting nameOfPage="Аниме" photos={photosForGreetingBlockAnime} />
       <Navigation nameOfPage="аниме" />
       <main>
-       <Definition name = {definition[0].anime}/>
+        <Definition name = {definition[0].anime}/>
         <Features featuresOfPage={featuresOfAnime} />
         <History historyOfPage={historyOfAnime} />
         <Genres genresOfPage={genresOfAnime} />
