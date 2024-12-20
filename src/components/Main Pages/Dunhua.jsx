@@ -22,14 +22,12 @@ export default function Dunhua() {
     <div className="bodyForPagesAnimeDunhuaManhwa">
       <Greeting nameOfPage="Дунхуа" photos={photosForGreetingBlockDunhua} />
       <Navigation nameOfPage="дунхуа" />
-      <main>
-        <Definition name = {definition[2].dunhua}/>
-        <Features featuresOfPage={featuresOfDunhua} />
-        <History historyOfPage={historyOfDunhua} />
-        <Genres genresOfPage={genresOfDunhua} />
-        <Favourite name="дунхуа" galleryForPage={galleryForDunhua} />
-        <Sources sources={sourcesOfDunhua} />
-      </main>
+      <Definition name = {definition[2].dunhua}/>
+      <Features featuresOfPage={featuresOfDunhua} />
+      <History historyOfPage={historyOfDunhua} />
+      <Genres genresOfPage={genresOfDunhua} />
+      <Favourite name="дунхуа" galleryForPage={galleryForDunhua} />
+      <Sources sources={sourcesOfDunhua} />
       <ButtonToTop />
     </div>
   );

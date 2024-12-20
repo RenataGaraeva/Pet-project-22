@@ -22,14 +22,12 @@ export default function Manhwa() {
     <div className="bodyForPagesAnimeDunhuaManhwa">
       <Greeting nameOfPage="Манхва" photos={photosForGreetingBlockManhwa} />
       <Navigation nameOfPage="манхвы" />
-      <main>
-        <Definition name = {definition[1].manhwa}/>
-        <Features featuresOfPage={featuresOfManhwa} />
-        <History historyOfPage={historyOfManhwa} />
-        <Genres genresOfPage={genresOfManhwa} />
-        <Favourite name="манхвы" galleryForPage={galleryForManhwa} />
-        <Sources sources={sourcesOfManhwa} />
-      </main>
+      <Definition name = {definition[1].manhwa}/>
+      <Features featuresOfPage={featuresOfManhwa} />
+      <History historyOfPage={historyOfManhwa} />
+      <Genres genresOfPage={genresOfManhwa} />
+      <Favourite name="манхвы" galleryForPage={galleryForManhwa} />
+      <Sources sources={sourcesOfManhwa} />
       <ButtonToTop />
     </div>
   );

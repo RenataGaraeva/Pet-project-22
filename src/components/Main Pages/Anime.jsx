@@ -22,14 +22,12 @@ export default function Anime() {
     <div className="bodyForPagesAnimeDunhuaManhwa">
       <Greeting nameOfPage="Аниме" photos={photosForGreetingBlockAnime} />
       <Navigation nameOfPage="аниме" />
-      <main>
-        <Definition name = {definition[0].anime}/>
-        <Features featuresOfPage={featuresOfAnime} />
-        <History historyOfPage={historyOfAnime} />
-        <Genres genresOfPage={genresOfAnime} />
-        <Favourite name="аниме" galleryForPage={galleryForAnime} />
-        <Sources sources={sourcesOfAnime} />
-      </main>
+      <Definition name = {definition[0].anime}/>
+      <Features featuresOfPage={featuresOfAnime} />
+      <History historyOfPage={historyOfAnime} />
+      <Genres genresOfPage={genresOfAnime} />
+      <Favourite name="аниме" galleryForPage={galleryForAnime} />
+      <Sources sources={sourcesOfAnime} />
       <ButtonToTop />
     </div>
   );
