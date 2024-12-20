@@ -14,7 +14,8 @@ import {
     featuresOfAnime,
     historyOfAnime,
     genresOfAnime,
-    sourcesOfAnime, definition
+    sourcesOfAnime,
+    definition
 } from "../../data.jsx"
 
 export default function Anime() {
