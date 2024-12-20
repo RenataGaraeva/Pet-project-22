@@ -7,13 +7,14 @@ import Features from "../Blocks/Features.jsx";
 import History from "../Blocks/History.jsx";
 import Genres from "../Blocks/Genres.jsx";
 import Favourite from "../Blocks/Favourite.jsx";
+import Definition from "../Blocks/Definition.jsx";
 import {
     galleryForAnime,
     photosForGreetingBlockAnime,
     featuresOfAnime,
     historyOfAnime,
     genresOfAnime,
-    sourcesOfAnime
+    sourcesOfAnime, definition
 } from "../../data.jsx"
 
 export default function Anime() {
@@ -22,8 +23,7 @@ export default function Anime() {
       <Greeting nameOfPage="Аниме" photos={photosForGreetingBlockAnime} />
       <Navigation nameOfPage="аниме" />
       <main>
-        <h3 id="titleWhatIsIt">Что это</h3>
-        <p className="textOfTitleWhatIsIt">Аниме́ — японская мультипликация</p>
+       <Definition name = {definition[0].anime}/>
         <Features featuresOfPage={featuresOfAnime} />
         <History historyOfPage={historyOfAnime} />
         <Genres genresOfPage={genresOfAnime} />

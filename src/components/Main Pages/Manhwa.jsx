@@ -7,13 +7,14 @@ import Greeting from "../Blocks/Greeting.jsx";
 import Features from "../Blocks/Features.jsx";
 import History from "../Blocks/History.jsx";
 import Genres from "../Blocks/Genres.jsx";
+import Definition from "../Blocks/Definition.jsx";
 import {
     sourcesOfManhwa,
     photosForGreetingBlockManhwa,
     featuresOfManhwa,
     historyOfManhwa,
     genresOfManhwa,
-    galleryForManhwa
+    galleryForManhwa, definition
 } from "../../data.jsx"
 
 export default function Manhwa() {
@@ -22,8 +23,7 @@ export default function Manhwa() {
       <Greeting nameOfPage="Манхва" photos={photosForGreetingBlockManhwa} />
       <Navigation nameOfPage="манхвы" />
       <main>
-        <h3 id="titleWhatIsIt">Что это</h3>
-        <p className="textOfTitleWhatIsIt">Манхва - это корейские комиксы.</p>
+      <Definition name = {definition[1].manhwa}/>
         <Features featuresOfPage={featuresOfManhwa} />
         <History historyOfPage={historyOfManhwa} />
         <Genres genresOfPage={genresOfManhwa} />

@@ -26,6 +26,11 @@ export const galleryForAnime = [
   }
 ];
 
+export const definition = [
+  {anime: "Аниме́ — японская мультипликация"},
+  {manhwa: "Манхва - это корейские комиксы"},
+  {dunhua: "Дунхуа — китайская анимация"}
+]
 export const galleryForDunhua = [
   {
     id: "10",

@@ -7,13 +7,14 @@ import Genres from "../Blocks/Genres.jsx";
 import History from "../Blocks/History.jsx";
 import Greeting from "../Blocks/Greeting.jsx";
 import Features from "../Blocks/Features.jsx";
+import Definition from "../Blocks/Definition.jsx";
 import {
     galleryForDunhua,
     photosForGreetingBlockDunhua,
     featuresOfDunhua,
     historyOfDunhua,
     genresOfDunhua,
-    sourcesOfDunhua
+    sourcesOfDunhua, definition
 } from "../../data.jsx"
 
 export default function Dunhua() {
@@ -22,8 +23,7 @@ export default function Dunhua() {
       <Greeting nameOfPage="Дунхуа" photos={photosForGreetingBlockDunhua} />
       <Navigation nameOfPage="дунхуа" />
       <main>
-        <h3 id="titleWhatIsIt">Что это</h3>
-        <p className="textOfTitleWhatIsIt">Дунхуа — китайская анимация.</p>
+<Definition name = {definition[2].dunhua}/>
         <Features featuresOfPage={featuresOfDunhua} />
         <History historyOfPage={historyOfDunhua} />
         <Genres genresOfPage={genresOfDunhua} />
